@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission10_JohnsonAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b7514df4795992a13dcc3ebd9069d1e2164aa95")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission10_JohnsonAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission10_JohnsonAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

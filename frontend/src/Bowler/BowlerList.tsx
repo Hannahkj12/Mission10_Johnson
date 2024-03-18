@@ -5,7 +5,7 @@ function BowlerList() {
 
   useEffect(() => {
     const fetchBowlerData = async () => {
-      const rsp = await fetch('https://localhost:7050/api/Bowler');
+      const rsp = await fetch('http://localhost:5264/api/Bowlers');
       const f = await rsp.json();
       setBowlerData(f);
     };
@@ -20,7 +20,6 @@ function BowlerList() {
       <table className="table table-bordered">
         <thead>
           <tr>
-            <th>Bowler ID</th>
             <th>First Name</th>
             <th>Middle Initial</th>
             <th>Last Name</th>
@@ -38,7 +37,7 @@ function BowlerList() {
               <td>{b.bowlerFirstName}</td>
               <td>{b.bowlerMiddleInit}</td>
               <td>{b.bowlerLastName}</td>
-              <td>{b.team.teamName}</td>
+              <td>{b.teamName}</td>
               <td>{b.bowlerAddress}</td>
               <td>{b.bowlerCity}</td>
               <td>{b.bowlerState}</td>
